@@ -32,7 +32,7 @@ environment:
   # Wyam ??
 
 build_script:
-  - ps: .\build.ps1 -Target AppVeyor
+  - ps: .\build.ps1 -Target AppVeyor -Verbosity Diagnostic
 
 cache:
   - "tools -> recipe.cake,tools/packages.config"

@@ -11,8 +11,9 @@ BuildParameters.SetParameters(
   repositoryOwner: "nils-a",
   repositoryName: "nils-org-demo",
   shouldRunGitVersion: true,
-  shouldRunCoveralls: true,
+  shouldExecuteGitLink: false,
   shouldRunCodecov: true,
+  shouldDeployGraphDocumentation: false,
   shouldRunDotNetCorePack: true);
 
 BuildParameters.PrintParameters(Context);

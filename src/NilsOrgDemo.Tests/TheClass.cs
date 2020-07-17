@@ -1,4 +1,4 @@
-﻿using FluentAssertions;
+﻿using Shouldly;
 
 using Xunit;
 
@@ -13,7 +13,7 @@ namespace NilsOrgDemo.Test
 
             var actual = sut.Method();
 
-            actual.Should().BeTrue();
+            actual.ShouldBeTrue();
         }
     }
 }

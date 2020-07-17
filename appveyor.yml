@@ -18,6 +18,8 @@ build: off
 environment:
   COVERALLS_REPO_TOKEN:
     secure: J3mMNYGWxSr+Fc7eLXxVPgv627AMVFIUl0JAt65dAJ7zUPaFnNaFO8e+S4/OGkiq
+  CODECOV_REPO_TOKEN:
+    secure: ZJuIZ8w5gxAhkRmMt7lJ9JPRsg/im571KK4q8f84S9ML9DWTr+W7wxc+BmI06Trq
   #MYGET_API_KEY:
   #  secure: j6rYrax7Ms3Fv7zDkX00i4KhKerBX7ZPT2zwicsz79V/kZpoGwwXMZvb2zqdoa/d
   #MYGET_SOURCE: https://www.myget.org/F/nils-org/api/v2/package

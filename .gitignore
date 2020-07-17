@@ -2,3 +2,6 @@ bin/
 obj/
 *.user
 .vs/
+tools/*
+!tools/packages.config
+BuildArtifacts

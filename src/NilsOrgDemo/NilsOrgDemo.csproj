@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>nils-org-demo</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Nils Andresen</Authors>
+    <Company>Nils Andresen</Company>
+    <Description>This is test-project. Do not install it. Do not use it.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>2020, Nils Andresen</Copyright>
+  </PropertyGroup>
+
+</Project>

@@ -10,8 +10,8 @@ BuildParameters.SetParameters(
   masterBranchName: "main",
   repositoryOwner: "nils-a",
   repositoryName: "nils-org-demo",
-  appVeyorAccountName: "nils-a", // convention would be "nilsa"
-  appVeyorProjectSlug: "nils-org-demo", // convention would be "nilsorgdemo"
+  appVeyorAccountName: "nils-a", // convention (derived from repositoryOwner) would be "nilsa"
+  appVeyorProjectSlug: "nils-org-demo", // convention (derived from repositoryName) would be "nilsorgdemo"
   shouldRunGitVersion: true,
   shouldExecuteGitLink: false,
   shouldRunCodecov: true,
@@ -22,13 +22,7 @@ BuildParameters.PrintParameters(Context);
 
 ToolSettings.SetToolSettings(
   context: Context,
-  testCoverageFilter: string.Format("+[{0}*]* -[*.Tests]*", "NilsOrgDemo") // convention would be nils-org-demo
+  testCoverageFilter: string.Format("+[{0}*]* -[*.Tests]*", "NilsOrgDemo") // convention (derived from repositoryName) would be nils-org-demo
 ); 
 
 Build.RunDotNetCore();
-
-// debug!
-if(BuildParameters.IsRunningOnAppVeyor && FileExists(BuildParameters.Paths.Files.TestCoverageOutputFilePath))
-{
-    AppVeyor.UploadArtifact(BuildParameters.Paths.Files.TestCoverageOutputFilePath);
-}

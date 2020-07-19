@@ -18,6 +18,9 @@ BuildParameters.SetParameters(
 
 BuildParameters.PrintParameters(Context);
 
-ToolSettings.SetToolSettings(context: Context);
+ToolSettings.SetToolSettings(
+  context: Context,
+  testCoverageFilter: string.Format("+[{0}*]* -[*.Tests]*", "NilsOrgDemo") // Assembly is called NilsOrgDemo and not nils-org-demo
+);
 
 Build.RunDotNetCore();

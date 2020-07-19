@@ -26,3 +26,9 @@ ToolSettings.SetToolSettings(
 ); 
 
 Build.RunDotNetCore();
+
+// debug!
+if(BuildParameters.IsRunningOnAppVeyor && FileExists(BuildParameters.Paths.Files.TestCoverageOutputFilePath))
+{
+    AppVeyor.UploadArtifact(BuildParameters.Paths.Files.TestCoverageOutputFilePath);
+}

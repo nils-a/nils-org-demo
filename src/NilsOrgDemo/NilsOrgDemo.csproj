@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <DebugType>pdbonly</DebugType>
+    <DebugType>Full</DebugType>
     <PackageId>nils-org-demo</PackageId>
     <Version>0.0.1</Version>
     <Authors>Nils Andresen</Authors>

@@ -32,7 +32,16 @@ This project follows the [all-contributors][] specification. Contributions of an
 Thanks goes to these wonderful people ([emoji key][emoji-key]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.nils-andresen.de"><img src="https://avatars3.githubusercontent.com/u/349188?v=4" width="100px;" alt=""/><br /><sub><b>Nils Andresen</b></sub></a><br /><a href="https://github.com/nils-a/nils-org-demo/commits?author=nils-a" title="Documentation">📖</a> <a href="#content-nils-a" title="Content">🖋</a> <a href="https://github.com/nils-a/nils-org-demo/commits?author=nils-a" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License

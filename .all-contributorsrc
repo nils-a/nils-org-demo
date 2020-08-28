@@ -1,13 +1,26 @@
 {
-    "files": [
-        "Readme.md"
-    ],
-    "imageSize": 100,
-    "commit": false,
-    "contributors": [],
-    "contributorsPerLine": 7,
-    "projectName": "nils-org-demo",
-    "projectOwner": "nils-a",
-    "repoType": "github",
-    "repoHost": "https://github.com"
+  "files": [
+    "Readme.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nils-a",
+      "name": "Nils Andresen",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/349188?v=4",
+      "profile": "http://www.nils-andresen.de",
+      "contributions": [
+        "doc",
+        "content",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "nils-org-demo",
+  "projectOwner": "nils-a",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
